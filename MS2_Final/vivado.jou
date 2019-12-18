@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Mon Oct 28 23:22:07 2019
+# Process ID: 5028
+# Current directory: C:/Users/Sabouzeid0/Desktop/MS2/MS2_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10420 C:\Users\Sabouzeid0\Desktop\MS2\MS2_Final\MS2_Final.xpr
+# Log file: C:/Users/Sabouzeid0/Desktop/MS2/MS2_Final/vivado.log
+# Journal file: C:/Users/Sabouzeid0/Desktop/MS2/MS2_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Sabouzeid0/Desktop/MS2/MS2_Final/MS2_Final.xpr
+llaunch_simulation
+ource test.tcl
+run all
+restart
+run all
+close_sim
+launch_simulation
+source test.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source test.tcl
